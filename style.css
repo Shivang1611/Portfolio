@@ -1,0 +1,514 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+header{
+    width: 100%;
+    /* display :fleX ; */
+    /* justify-content: space-evenly; */
+   
+    padding: 1.3rem 1.3rem 1rem 1.3rem;
+    background-color:rgb(0, 0, 0) ;
+    box-shadow: rgb(130, 130, 130) 10px 5px 5px;
+    
+
+}
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+a{
+    color :aliceblue;
+    text-decoration: none;
+    font-weight: 450;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+a:hover {
+    color:rgb(128, 128, 128) ;
+    transform: translate(4);
+}
+
+
+.logo img{
+    color: white;
+    width:50px;
+    background-color: white;
+}
+
+
+.index-main {
+    /* border: 2px red solid; */
+    height: 100vh;
+    width: 100%;
+    background-image: url(./pexels-thngocbich-669996.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+
+
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    color: white;
+    position: absolute;
+    right: 12%;
+    top: 14%;
+    
+}
+.name{
+    font-weight: 500;
+    padding-bottom: 0.7rem;
+    font-size: 2.5rem;
+}
+.surname{
+    font-weight: 700;
+    padding-bottom: 0.5rem;
+    font-size: 3rem;
+}
+.role {
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding-bottom: 1.2rem;
+letter-spacing: 0.4rem;
+
+
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.common-btn {
+    padding: 0.7rem;
+    border-radius: 0.4rem;
+    border: none;
+    background-color: rgb(109, 8, 8);
+    color: white;
+
+}
+
+button:hover{
+    background-color:rgb(186, 20, 20) ;
+}
+.link img{
+   border-radius: 100%;
+   position: absolute;
+   right: 10%;
+   bottom: 5%;
+   display: flex;
+   justify-content: space-between;
+
+}
+.ft {
+    background-color: rgb(52, 52, 52);
+    height: 25vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    color: rgb(155, 153, 153);
+}
+.ft-links-logo {
+    color: rgb(7, 7, 7);
+
+    
+}
+
+.ref{
+    color: rgb(150, 148, 148);
+
+}
+
+.ft a {
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    padding: 0.2rem;
+}
+.about-main{
+    display: flex;
+    background-color: rgb(58, 57, 57);
+    height: 100vh;
+    width: 100%;
+}
+
+
+.contact-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2rem;
+    flex-direction: row-reverse;
+}
+
+.form {
+    padding: 2rem;
+    padding-top: 0;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   
+
+}
+
+input {
+    padding: 0.2rem;
+    border: rgb(109, 8, 8) 1px solid;
+    
+}
+.contact-main{
+    background-color: rgb(58, 57, 57);
+    height: 100vh;
+    width: 100%;
+    color: rgb(238, 235, 235);
+    display: flex;
+    justify-content: space-around;
+}
+.left{
+    
+    width: 50%;
+    height: 60%;
+    padding: 3rem;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    margin-left: 7REM;
+    margin-top: 5REM;
+    justify-content: space-around;
+    
+
+
+}
+
+.left h1 {
+    padding-bottom: 1.5rem;
+    font-size: 2.5rem;
+    text-shadow: black -5px 5px 5px;
+    font-weight: 500;
+}
+
+.left .para {
+    padding-bottom: 1rem;
+    font-size: small;
+    color: rgb(140, 139, 139);
+    justify-content: space-around;
+
+}
+.right {
+    display: flex;
+    padding: 3rem;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+    
+    width: 50%;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 80%;
+    box-shadow: rgb(7, 7, 7) -5px 5px 7px;
+    padding: 2rem;
+    background-color: rgb(56, 55, 55);
+    
+   
+
+}
+.submit{
+    width: 6rem;
+    background-color: black;
+    color: white;
+    padding: 0.7rem;
+    border-radius: 0.7rem;
+    margin-top: 1rem;
+    left: 20%;
+
+    margin-left :8rem;
+  
+    
+    
+}
+.submit:hover {
+    background-color: rgb(60, 59, 59);
+
+}
+label{
+    margin-bottom: 0.2rem;
+    margin-top: 0.4rem;
+}
+ .contact-input{
+    border-radius: .2rem;
+    padding: .6rem;
+    background-color: black;
+    color: rgb(166, 163, 163);
+}
+.ct-h1{
+    padding-left :4rem;
+    padding-bottom: 1.5rem;
+    text-shadow: black -5px 5px 5px;
+    font-size: 2.5rem;
+    font-weight: 500;
+   
+    
+}
+.content{
+    width: 50%;
+    color: white    ;
+    padding: 1rem;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    box-shadow: black 9px 7px 9px;
+    margin: 4rem;
+    padding: 2rem;
+    padding-left: 2rem;
+    background-color: rgb(61, 60, 60);
+    border-radius: 0.5rem;
+
+
+   
+    
+}
+.me{
+   
+    display: flex;
+    font-weight: 500;
+    font-size: 3rem;
+    padding: 0.4rem 1rem 1rem 1rem;
+ 
+   justify-content: center;
+   text-shadow: black -4px 4px 4px;
+
+   
+}
+
+
+.about-main div  h2{
+    padding-top:1rem;
+}
+.pic{
+    display: flex;
+  
+   width: 50%;
+   justify-content: center ;
+   padding-left: 30rem;
+   background-image: url(./IMAGE.png);
+   background-repeat:no-repeat;
+   background-size:contain;
+
+}
+
+.card{
+    width: 50%;
+    padding: 2rem;
+    color: white;
+    box-shadow: black -3px 3px 4px;
+    margin: 6rem;
+    display: flex;
+    justify-content: center;
+    text-shadow: black -4px 4px 4px;
+    background-color: rgb(61, 60, 60);
+    border-radius: 0.5rem;
+
+}
+
+.skills, .projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.ln{
+    width: 2rem;
+    background-image: url(./icons8-linkedin.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 2rem;
+   
+}
+.ln:hover{
+    box-shadow: rgb(0, 0, 0) -1px 1px 4px;
+}
+.gt{
+    width: 2rem;
+    background-image: url(./icons8-github.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 2rem;
+    border-radius: 1rem;
+   
+}
+.gt:hover{
+    box-shadow: rgb(0, 0, 0) -1px 1px 4px;
+}
+
+.x{
+    width: 2rem;
+    background-image: url(./icons8-twitterx.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 2rem;
+}
+.x:hover{
+    box-shadow: rgb(0, 0, 0) -1px 1px 4px;
+}
+
+.lt{
+    width: 2rem;
+    background-image: url(./icons8-leetcode.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 2rem;
+    border-radius: 1rem;
+   
+    
+}
+.lt:hover{
+    box-shadow: rgb(0, 0, 0) -1px 1px 4px;
+}
+
+.gfg{
+    width: 2rem;
+    background-image: url(./icons8-geeksforgeeks.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 2rem;
+    color: black;
+    border-radius: 1rem;
+}
+.gfg:hover{
+    box-shadow: rgb(0, 0, 0) -1px 1px 4px;
+}
+
+.logo{
+   
+    
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+.ft-logo{
+    display: flex;
+    color: aliceblue;
+    justify-content: space-between;
+
+    height: auto;
+    
+}
+.ft-lg{
+  
+margin-right: .4rem;
+    
+}
+.project-card{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    font-size: 5rem;
+    
+
+}
+
+.project-size{
+    font-size: 1.5rem;
+    display: flex;
+}
+@media only screen and (max-width: 600px) {
+    .contact-main {
+       display: flex;
+       flex-direction: column;
+    }
+
+    .right{
+        height: 150%;
+        width: 100%;
+        padding: 0;
+        padding-bottom: 2rem;
+       
+    }
+    .contact-main {
+        height: auto;
+    }
+    .left {
+       margin-bottom :4rem ;
+        padding: 0;
+        margin-left: 4rem;
+        width: 80%;
+    }
+    .ft {
+        height: auto;
+        padding: 1rem;
+        width: 100%;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .x, .ln, .lt, .gfg , .gt{
+        width: 1rem;
+    }
+    .visit p {
+        padding-bottom:  1rem;
+    }
+
+    .about-main {
+        flex-direction: column;
+        height: auto;
+    }
+    .content {
+        width: auto;
+        margin: 2rem;
+    }
+    .pic{
+        width: auto;
+        padding: 0.2rem;
+        justify-content: right;
+    }
+    .logo {
+        height: 45vh;
+        padding-right: 1rem;
+    }
+    .card {
+        width: auto;
+        height: 40vh;
+        margin: 3rem;
+    }
+    .skills {
+        margin-bottom: 0;
+    }
+    .info {
+        top: 58%;
+    }
+  }
+
+  .para{
+    font-size: 20rem;
+    
+}
+
+#home:visited {
+    color:rgb(128, 128, 128) ;
+}
+#about:visited {
+    color:rgb(128, 128, 128) ;
+}
+#projects:visited {
+    color:rgb(128, 128, 128) ;
+}
+#contact:visited {
+    color:rgb(128, 128, 128) ;
+}
